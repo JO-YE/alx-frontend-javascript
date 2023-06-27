@@ -1,5 +1,6 @@
 # 0x00-ES6_basic
-![img](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/08806026ef621f900121.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T082944Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ef160ea7a284ffb539e0227bfdc1ad1bae43ff3a8c7cf1d0e93b301eb3d29c69)
+![08806026ef621f900121](https://github.com/JO-YE/alx-frontend-javascript/assets/111038087/23d57663-8206-41dc-a35c-9627840e457f)
+
 This repository contains exercises and examples for learning the basics of ES6 (ECMAScript 2015) in JavaScript.
 
 ## Resources
