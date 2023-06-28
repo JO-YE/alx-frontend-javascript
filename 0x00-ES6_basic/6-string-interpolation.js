@@ -1,5 +1,4 @@
 // Rewriting a return statement using template literal
-
 export default function getSanFranciscoDescription() {
   const year = 2017;
   const budget = {
