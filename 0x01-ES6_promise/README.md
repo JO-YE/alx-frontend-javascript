@@ -48,9 +48,11 @@ getFullResponseFromAPI(success)
 
 > true
 >> resolve the promise by passing an object with 2 attributes:
->>>> status: 200
->>>> body: 'Success'
+>>> status: 200
+>>> body: 'Success'
+>
 > false
+>
 >> reject the promise with an error object with the message The fake API is not working currently
 
 ```
