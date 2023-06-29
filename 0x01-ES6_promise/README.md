@@ -49,6 +49,7 @@ getFullResponseFromAPI(success)
 > true
 >> resolve the promise by passing an object with 2 attributes:
 >>> status: 200
+>>>
 >>> body: 'Success'
 >
 > false
