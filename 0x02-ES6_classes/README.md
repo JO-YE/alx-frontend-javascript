@@ -1,6 +1,8 @@
 # 0x02. ES6 classes
 ES6 classes are a feature introduced in ECMAScript 2015 (ES6) that provide a more convenient and structured way to define objects and their behavior in JavaScript. Classes in JavaScript follow the object-oriented programming (OOP) paradigm and are a key component of building modular and maintainable code.
 
+![817248fb77fb5c2cef3f](https://github.com/JO-YE/alx-frontend-javascript/assets/111038087/cad70b95-90f3-43fd-994e-2346333245b0)
+
 ## Resources
 - [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [Metaprogramming](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/#symbolspecies)
