@@ -5,6 +5,6 @@ constructor(name = '', code = '') {
   }
 
   toString() {
-    return this._code;
+  return `[object ${this._code}]`;
   }
 }
