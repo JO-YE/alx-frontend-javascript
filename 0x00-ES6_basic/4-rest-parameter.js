@@ -4,4 +4,4 @@ export default function returnHowManyArguments(...args) {
   for (let arg of args)
     count += 1;
     return count;
-};
+}
