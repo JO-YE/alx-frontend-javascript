@@ -1,10 +1,10 @@
 export default class HolbertonCourse {
-constructor(name = '', code = '') {
-  this._name = name;
-  this._code = code;
+  constructor(name = '', code = '') {
+    this._name = name;
+    this._code = code;
   }
 
   toString() {
-  return `[object ${this._code}]`;
+    return `[object ${this._code}]`;
   }
 }
