@@ -169,7 +169,94 @@ Pricing {
 bob@dylan:~$ 
 ```
 
+5.[5-building.js](./5-building.js)
+- Implement a class named Building:
 
+-	Constructor attributes:
+- 		sqft (Number)
+-	Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+-	Implement a getter for each attribute.
+-	Consider this class as an abstract class. And make sure that any class that extends from it should implement a method named evacuationWarningMessage.
+-		If a class that extends from it does not have a evacuationWarningMessage method, throw an error with the message Class extending Building must override evacuationWarningMessage
+```
+bob@dylan:~$ cat 5-main.js
+import Building from './5-building.js';
+
+const b = new Building(100);
+console.log(b);
+
+class TestBuilding extends Building {}
+
+try {
+    new TestBuilding(200)
+}
+catch(err) {
+    console.log(err);
+}
+
+bob@dylan:~$ 
+bob@dylan:~$ npm run dev 5-main.js 
+Building { _sqft: 100 }
+Error: Class extending Building must override evacuationWarningMessage
+    ...
+bob@dylan:~$ 
+```
+
+6. [6-sky_high.js](./6-sky_high.js)
+- Import Building from 5-building.js.
+
+- Implement a class named SkyHighBuilding that extends from Building:
+
+	-
+Constructor attributes:
+		-
+sqft (Number) (must be assigned to the parent class Building)
+		-		
+floors (Number)
+- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+- Implement a getter for each attribute.
+- Override the method named evacuationWarningMessage and return the following string Evacuate slowly the NUMBER_OF_FLOORS floors.
+```
+bob@dylan:~$ cat 6-main.js
+import SkyHighBuilding from './6-sky_high.js';
+
+const building = new SkyHighBuilding(140, 60);
+console.log(building.sqft);
+console.log(building.floors);
+console.log(building.evacuationWarningMessage());
+
+bob@dylan:~$ 
+bob@dylan:~$ npm run dev 6-main.js 
+140
+60
+Evacuate slowly the 60 floors
+bob@dylan:~$ 
+```
+7.[7-airport.js](./7-airport.js)
+- Implement a class named Airport:
+
+- Constructor attributes:
+	-	
+name (String)
+	-
+code (String)
+- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+- The default string description of the class should return the airport code (example below).
+
+```
+bob@dylan:~$ cat 7-main.js
+import Airport from "./7-airport.js";
+
+const airportSF = new Airport('San Francisco Airport', 'SFO');
+console.log(airportSF);
+console.log(airportSF.toString());
+
+bob@dylan:~$ 
+bob@dylan:~$ npm run dev 7-main.js 
+Airport [SFO] { _name: 'San Francisco Airport', _code: 'SFO' }
+[object SFO]
+bob@dylan:~$ 
+```
 
 
 
