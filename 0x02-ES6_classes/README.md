@@ -15,20 +15,20 @@ ES6 classes are a feature introduced in ECMAScript 2015 (ES6) that provide a mor
 - Metaprogramming and symbols
 
 ## Tasks
-### [You used to attend a place like this at some point](./0-classroom.js)
-- Implement a class named ClassRoom:
+### [0-classroom.js](./0-classroom.js)
+Implement a class named ClassRoom:
 
--	 Prototype: export default class ClassRoom
--	It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
+- Prototype: export default class ClassRoom
+- It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
 
 
-1. [Let's make some classrooms](./1-make_classrooms.js)
+### [1-make_classrooms.js](./1-make_classrooms.js)
 - Import the ClassRoom class from 0-classroom.js.
 
 Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).
 
 
-### [A Course, Getters, and Setters](./2-hbtn_course.js)
+### [2-hbtn_course.js](./2-hbtn_course.js)
 Implement a class named HolbertonCourse:
 
 - Constructor attributes:
@@ -41,7 +41,7 @@ Implement a class named HolbertonCourse:
 - Implement a getter and setter for each attribute.
 
 
-### [Methods, static methods, computed methods names..... MONEY](./3-currency.js)
+### [3-currency.js](./3-currency.js)
 Implement a class named Currency:
 
 - Constructor attributes:
