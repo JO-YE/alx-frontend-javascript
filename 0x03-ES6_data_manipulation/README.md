@@ -1,5 +1,7 @@
 # 0x03. ES6 data manipulation
 ***JavaScript ES6***
+![rec](https://github.com/JO-YE/alx-frontend-javascript/assets/111038087/5a2c9d1f-8d49-47e1-856a-b9aa894d3a5f)
+
 
 ## Resources
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
